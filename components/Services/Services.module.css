@@ -1,0 +1,39 @@
+.services {
+  position: relative;
+  padding-bottom: 8rem;
+}
+
+.btn_link {
+  position: absolute;
+  width: max-content;
+  height: max-content;
+  right: 0;
+  top: 5.7rem;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+
+@media (max-width: 1440px) {
+  .content {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .content {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .btn_link {
+    top: unset;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+  }
+}

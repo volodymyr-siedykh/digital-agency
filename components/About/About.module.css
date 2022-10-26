@@ -1,0 +1,18 @@
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8rem;
+}
+
+.img {
+  border-radius: 0.8rem;
+}
+
+.counters {
+  display: flex;
+  gap: 6rem;
+}
+
+.content a {
+  margin-top: 4rem;
+}

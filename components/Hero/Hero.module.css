@@ -1,0 +1,42 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr-merino);
+  padding-top: 12.5rem;
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 2.4rem;
+}
+
+.title {
+  max-width: 70rem;
+  text-align: center;
+}
+
+.title span {
+  background-color: var(--clr-maize);
+  padding: 0.5rem;
+}
+
+.hero a {
+  width: max-content;
+  margin-top: 3.5rem;
+  z-index: 10;
+}
+
+.hero__img {
+  margin-top: -20%;
+  padding-bottom: 6.5rem;
+}
+
+@media (max-width: 768px) {
+  .title {
+    max-width: 40rem;
+  }
+}

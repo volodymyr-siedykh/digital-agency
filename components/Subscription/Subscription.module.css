@@ -1,0 +1,50 @@
+.section {
+  padding-bottom: 12.4rem;
+  padding-inline: 2.4rem;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding-bottom: 4.2rem;
+  }
+}
+
+.subscr_title {
+  text-align: center;
+}
+
+.subscr_title p {
+  max-width: 50rem;
+  margin-inline: auto;
+  margin-top: 1.1rem;
+  margin-bottom: 4rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.form_control {
+  display: flex;
+  align-items: center;
+  width: 50rem;
+}
+
+.input {
+  box-shadow: 0px 30px 49px rgba(156, 45, 0, 0.09);
+  border-radius: 8px;
+  padding: 1.5rem 15rem 1.5rem 2.5rem;
+  width: 100%;
+}
+
+.form_control button {
+  margin-left: -15.5rem;
+  height: 4.6rem;
+}
+
+@media(max-width: 500px) {
+  .section {
+    font-size: 1.4rem;
+  }
+}

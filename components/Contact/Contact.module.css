@@ -1,0 +1,40 @@
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  align-items: center;
+  gap: 2.3rem;
+  background-color: var(--clr-merino);
+  padding: 2.8rem;
+  border-radius: 0.8rem;
+  max-width: 50rem;
+  width: 100%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content h6 {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.content div {
+  display: flex;
+  flex-direction: column;
+}
+
+@media(max-width: 1440px) {
+  .items {
+    flex-direction: column;
+    align-items: center;
+  }
+}

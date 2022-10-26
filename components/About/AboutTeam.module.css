@@ -1,0 +1,25 @@
+.team {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.item {
+  border-radius: 0.8rem;
+  max-width: 36.3rem;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--clr-merino);
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  gap: 3.5rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.heading {
+  padding-bottom: 3.5rem;
+}
+
+.heading h5 {
+  margin-bottom: 0.6rem;
+}

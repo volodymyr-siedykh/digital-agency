@@ -1,0 +1,8 @@
+.section {
+  text-align: center;
+  padding-bottom: 14rem;
+  padding-top: 12.5rem;
+  background-color: var(--clr-merino);
+  background-image: url('/images/bg-circles.png');
+  background-position: center;
+}
