@@ -9,7 +9,7 @@ const About = () => {
       <div className={`container container-center ${styles.about}`}>
         <Image
           className={styles.img}
-          src='/images/about-main.png'
+          src='/images/about-main.webp'
           alt='about us'
           width={520}
           height={560}

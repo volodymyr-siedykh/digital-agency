@@ -26,7 +26,7 @@ const Features = () => {
           </div>
         </div>
         <Image
-          src='/images/feature-1.svg'
+          src='/images/feature-1.webp'
           alt='feature image'
           width={734}
           height={694}
@@ -35,7 +35,7 @@ const Features = () => {
 
       <div className={styles.feature_2}>
         <Image
-          src='/images/feature-2.svg'
+          src='/images/feature-2.webp'
           alt='feature image'
           width={650}
           height={694}

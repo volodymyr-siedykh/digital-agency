@@ -18,7 +18,7 @@ const AboutTeam = () => {
       <div className={`container container-center ${styles.team}`}>
         <div className={styles.item}>
           <Image
-            src='/images/team-1.png'
+            src='/images/team-1.webp'
             alt='designer'
             width={363}
             height={315}
@@ -30,7 +30,7 @@ const AboutTeam = () => {
         </div>
         <div className={styles.item}>
           <Image
-            src='/images/team-2.png'
+            src='/images/team-2.webp'
             alt='designer'
             width={363}
             height={315}
@@ -42,7 +42,7 @@ const AboutTeam = () => {
         </div>
         <div className={styles.item}>
           <Image
-            src='/images/team-3.png'
+            src='/images/team-3.webp'
             alt='designer'
             width={363}
             height={315}
