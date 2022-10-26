@@ -1,5 +1,13 @@
 .container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 4rem;
+}
+
+@media(max-width: 1440px) {
+  .container {
+    
+
+  }
 }
