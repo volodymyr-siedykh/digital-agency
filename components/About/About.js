@@ -13,6 +13,7 @@ const About = () => {
           alt='about us'
           width={520}
           height={560}
+          layout='responsive'
         />
         <div className={styles.content}>
           <Heading

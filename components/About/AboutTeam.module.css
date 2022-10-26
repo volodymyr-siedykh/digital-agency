@@ -1,6 +1,7 @@
 .team {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
 }
 
 .item {
@@ -22,4 +23,11 @@
 
 .heading h5 {
   margin-bottom: 0.6rem;
+}
+
+@media(max-width: 1300px) {
+  .team {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
 }

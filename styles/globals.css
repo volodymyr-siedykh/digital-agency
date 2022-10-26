@@ -65,10 +65,10 @@ table {
   border-collapse: collapse;
 }
 
-/* input,
+input,
 textarea {
   -webkit-user-select: auto;
-} */
+}
 
 textarea {
   white-space: revert;
@@ -161,7 +161,6 @@ meter {
 }
 
 .btn {
-  display: block;
   width: max-content;
   font-size: 1.8rem;
   line-height: 2.7rem;

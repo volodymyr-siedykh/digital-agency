@@ -41,7 +41,7 @@ const Header = () => {
           </ul>
         </nav>
         <Link href='/contact'>
-          <a className={`btn btn-orange ${styles.hero__btn}`} type='btn'>
+          <a className={`btn btn-orange ${styles.header__btn}`} type='btn'>
             Contact
           </a>
         </Link>

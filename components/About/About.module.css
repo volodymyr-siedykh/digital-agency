@@ -15,4 +15,11 @@
 
 .content a {
   margin-top: 4rem;
+  display: block;
+}
+
+@media(max-width: 1300px) {
+  .about {
+    grid-template-columns: 1fr;
+  }
 }
