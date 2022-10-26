@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from './BlogCard.module.css'
 
-const BlogCard = ({title, image, date, tag, slug }) => {
+const BlogCard = ({title, image, date, tag }) => {
   return (
     <Link href='/'>
       <a>
