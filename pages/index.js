@@ -4,12 +4,14 @@ import Hero from "../components/Hero/Hero";
 import Projects from "../components/Projects/Projects";
 import Services from "../components/Services/Services";
 import Subscription from "../components/Subscription/Subscription";
+import projects from '../constants/projects';
 
 const Home = () => {
+  console.log(projects);
   return (
     <>
       <Hero />
-      <Projects />
+      <Projects projects={projects} />
       <Services />
       <Features />
       <Feedback />
@@ -19,3 +21,11 @@ const Home = () => {
 };
 
 export default Home;
+
+export const getStaticProps = async () => {
+  return {
+    props: {
+      projects: projects,
+    },
+  };
+};

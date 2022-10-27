@@ -2,9 +2,10 @@ import Link from 'next/link';
 import Heading from '../Heading/Heading';
 import ProjectCard from '../ProjectCard/ProjectCard';
 import styles from './Projects.module.css';
-import projects from '../../constants/projects';
+// import projects from '../../constants/projects';
 
-const Projects = () => {
+const Projects = ({ projects }) => {
+  console.log(projects);
   return (
     <section className='section'>
       <div className={`container container-center ${styles.project}`}>

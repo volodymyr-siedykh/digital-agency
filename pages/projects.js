@@ -2,6 +2,7 @@ import Heading from '../components/Heading/Heading';
 import HeadingPages from '../components/HeadingPages/HeadingPages';
 import ProjectsAll from '../components/Projects/ProjectsAll';
 import Subscription from '../components/Subscription/Subscription';
+import projects from '../constants/projects'
 
 const ProjectsPage = () => {
   return (
@@ -18,11 +19,19 @@ const ProjectsPage = () => {
           title='Best works'
           text='Praesent placerated egestas egestas cras rhone magna rutrum tellus laoreet'
         />
-        <ProjectsAll />
+        <ProjectsAll projects={projects} />
       </section>
       <Subscription />
     </>
   );
 }
+
+export const getStaticProps = async () => {
+  return {
+    props: {
+      projects: projects,
+    },
+  };
+};
 
 export default ProjectsPage;
