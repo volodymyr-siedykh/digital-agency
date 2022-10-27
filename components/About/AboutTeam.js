@@ -17,12 +17,14 @@ const AboutTeam = () => {
       />
       <div className={`container container-center ${styles.team}`}>
         <div className={styles.item}>
-          <Image
-            src='/images/team-1.webp'
-            alt='designer'
-            width={363}
-            height={315}
-          />
+          <div>
+            <Image
+              src='/images/team-1.webp'
+              alt='designer'
+              width={363}
+              height={315}
+            />
+          </div>
           <div className={styles.heading}>
             <h5 className='heading-5'>Freddie Stewart</h5>
             <p>Ui Designer</p>
