@@ -8,7 +8,7 @@ const ProjectCard = ({title, color, image}) => {
       style={{ backgroundColor: color || '#E2FAE3' }}
     >
       <h3 className='heading-3'>{title}</h3>
-      <Image src={image} alt='project pic' width={452} height={454} priority />
+      <Image src={image} alt='project pic' width={452} height={454} />
     </div>
   );
 }
