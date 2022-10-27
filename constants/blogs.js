@@ -45,7 +45,7 @@ const blogs = [
     date: '13 August 2022',
   },
   {
-    id: 1,
+    id: 6,
     slug: 'how-avoid-burn-aout',
     title: 'How to avoid burn out and stay productive',
     feature: true,
