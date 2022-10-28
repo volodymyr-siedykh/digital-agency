@@ -17,6 +17,7 @@
 .title {
   max-width: 70rem;
   text-align: center;
+  z-index: 10;
 }
 
 .title span {

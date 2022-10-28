@@ -7,7 +7,7 @@ import Subscription from "../components/Subscription/Subscription";
 import projects from '../constants/projects';
 
 const Home = () => {
-  console.log(projects);
+
   return (
     <>
       <Hero />

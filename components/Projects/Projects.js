@@ -5,7 +5,7 @@ import styles from './Projects.module.css';
 // import projects from '../../constants/projects';
 
 const Projects = ({ projects }) => {
-  console.log(projects);
+  
   return (
     <section className='section'>
       <div className={`container container-center ${styles.project}`}>

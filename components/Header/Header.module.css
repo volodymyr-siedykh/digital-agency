@@ -3,6 +3,7 @@
   padding-top: 4.5rem;
   padding-inline: 13.5rem;
   font-weight: 500;
+  color: var(--clr-black-primary);
 }
 
 .header__container {
