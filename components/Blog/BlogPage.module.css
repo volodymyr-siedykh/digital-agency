@@ -1,0 +1,140 @@
+.content {
+  padding-bottom: 5rem;
+  border-bottom: 2px solid #F4ECE0;
+}
+
+.content h3 {
+  margin-top: 5rem;
+}
+
+.date {
+  margin-top: 4rem;
+}
+
+.text {
+  margin-top: 1.5rem;
+}
+
+.quote {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 3.5rem;
+  border-left: 1rem solid var(--clr-orange-primary);
+  border-top-left-radius: 0.8rem;
+  border-bottom-left-radius: 0.8rem;
+  background-color: var(--clr-merino);
+  padding-block: 4rem;
+  padding-right: 6rem;
+}
+
+.icon {
+  font-size: 8rem;
+  color: var(--clr-maize);
+  max-width: 15rem;
+  width: 100%;
+  margin-left: 2rem;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 5rem;
+  text-transform: uppercase;
+  color: var(--clr-black-primary);
+  font-weight: 600;
+}
+
+.socials, .tags {
+  display: flex;
+  align-items: center;
+}
+
+.socials div {
+  display: flex;
+  gap: 1rem;
+  margin-left: 2rem;
+  justify-content: center;
+  align-items: center;
+  color: var(--clr-orange-primary);
+  font-size: 2.6rem;
+}
+
+.tag {
+  width: max-content;
+  padding: 0.2rem 1.2rem;
+  background-color: var(--clr-maize);
+  color: var(--clr-orange-primary);
+  border-radius: 0.4rem;
+  margin-left: 2rem;
+}
+
+.form_container {
+  margin-bottom: 10rem;
+  background-color: var(--clr-merino);
+  padding: 4rem;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.form {
+  padding-bottom: 2rem;
+}
+
+.form button {
+  margin-top: 5rem;
+}
+
+.textarea,
+.input {
+  background-color: var(--clr-white);
+}
+
+.input_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.input {
+  padding: 1.3rem 3rem;
+  width: 100%;
+  border-radius: 0.4rem;
+}
+
+.textarea {
+  margin-top: 4rem;
+  padding: 1.3rem 3rem;
+  width: 100%;
+  border-radius: 0.4rem;
+}
+
+@media(max-width: 1024px) {
+  .input_wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media(max-width: 600px) {
+  .quote {
+    flex-direction: column;
+    border-left: none;
+    padding-inline: 2rem;
+    border-top: 1rem solid var(--clr-orange-primary);
+    border-top-right-radius: 0.8rem;
+  }
+
+  .icon {
+    margin-left: 0;
+    font-size: 7rem;
+  }
+
+  .links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+}

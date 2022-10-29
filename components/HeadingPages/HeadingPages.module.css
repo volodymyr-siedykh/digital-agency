@@ -6,3 +6,13 @@
   background-image: url('/images/bg-circles.png');
   background-position: center;
 }
+
+.section div {
+  max-width: 80rem;
+}
+
+.text span {
+  width: 50px; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}

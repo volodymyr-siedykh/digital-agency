@@ -22,10 +22,10 @@ const Home = () => {
 
 export default Home;
 
-export const getStaticProps = async () => {
-  return {
-    props: {
-      projects: projects,
-    },
-  };
-};
+// export const getStaticProps = async () => {
+//   return {
+//     props: {
+//       projects: projects,
+//     },
+//   };
+// };

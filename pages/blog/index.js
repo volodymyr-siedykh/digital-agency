@@ -20,7 +20,6 @@ const BlogPage = () => {
         />
         <BlogAll />
       </section>
-
       <Subscription />
     </>
   );
