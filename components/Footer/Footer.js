@@ -7,7 +7,6 @@ const Footer = () => {
     <footer className={styles.footer}>
       <section className='section'>
         <div className={styles.container}>
-          <h2 className={styles.title}>DGStart</h2>
           <nav className={styles.nav}>
             <ul className={styles.list}>
               <li>

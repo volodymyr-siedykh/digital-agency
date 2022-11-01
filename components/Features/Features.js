@@ -5,7 +5,6 @@ import styles from './Features.module.css';
 const Features = () => {
   return (
     <section className={styles.features}>
-
       <div className={styles.feature_1}>
         <div className={styles.heading_1}>
           <Heading title='Providing The World&#39;s Best User Experiences' />
@@ -30,6 +29,7 @@ const Features = () => {
           alt='feature image'
           width={734}
           height={694}
+          layout='responsive'
         />
       </div>
 
@@ -39,11 +39,10 @@ const Features = () => {
           alt='feature image'
           width={650}
           height={694}
+          layout='responsive'
         />
         <div className={styles.heading_2}>
-          <Heading
-            title='Explore Your Best Ideas On A Whiteboard'
-          />
+          <Heading title='Explore Your Best Ideas On A Whiteboard' />
           <p>
             Vestibulum blandit ut nunc vel bibendum semper elit eget dignissim
             rhoncus, nisl augue lacinia urna vel rutrum nisi nunc sit amet risus
@@ -61,7 +60,6 @@ const Features = () => {
           </div>
         </div>
       </div>
-
     </section>
   );
 };

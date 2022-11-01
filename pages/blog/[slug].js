@@ -1,4 +1,4 @@
-import BlogPage from '../../components/Blog/BlogPage';
+import BlogDetails from '../../components/Blog/BlogDetails';
 import HeadingPages from '../../components/HeadingPages/HeadingPages';
 import blogs from '../../constants/blogs';
 
@@ -25,7 +25,7 @@ const BlogDetailsPage = ({ blog }) => {
   return (
     <>
       <HeadingPages title={blog.title} text={`Home > Blog`} />
-      <BlogPage blog={blog} />
+      <BlogDetails blog={blog} />
     </>
   );
 };

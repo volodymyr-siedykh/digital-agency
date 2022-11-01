@@ -1,4 +1,5 @@
 .toggle {
+  display: flex;
   z-index: 99;
   cursor: pointer;
 }

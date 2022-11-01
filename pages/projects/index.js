@@ -1,7 +1,7 @@
-import Heading from '../components/Heading/Heading';
-import HeadingPages from '../components/HeadingPages/HeadingPages';
-import ProjectsAll from '../components/Projects/ProjectsAll';
-import Subscription from '../components/Subscription/Subscription';
+import HeadingPages from '../../components/HeadingPages/HeadingPages'
+import Heading from '../../components/Heading/Heading';
+import ProjectsAll from '../../components/Projects/ProjectsAll'
+import Subscription from '../../components/Subscription/Subscription';
 
 const ProjectsPage = () => {
   return (

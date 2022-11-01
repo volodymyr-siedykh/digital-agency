@@ -1,7 +1,8 @@
-import Heading from '../components/Heading/Heading';
-import HeadingPages from '../components/HeadingPages/HeadingPages';
-import ServicesAll from '../components/Services/ServicesAll';
-import Subscription from '../components/Subscription/Subscription';
+import Heading from "../../components/Heading/Heading";
+import HeadingPages from "../../components/HeadingPages/HeadingPages";
+import ServicesAll from "../../components/Services/ServicesAll";
+import Subscription from "../../components/Subscription/Subscription";
+
 
 const ServicesPage = () => {
   return (

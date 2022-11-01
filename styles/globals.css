@@ -8,17 +8,22 @@
   --clr-maize: #f4d3a1;
   --clr-graphite: #241008;
   --clr-asphalt: #1a0c06;
-  --clr-flint: #6B625E;
+  --clr-flint: #6b625e;
   --clr-hurricane: #8a7f7b;
   --clr-black-primary: #000000;
   --clr-black-light: ##313131;
-  --clr-white-ice: #E3F8FA;
-  --clr-blue-chalk: #F5E6FE;
-  --clr-pipin: #FFE6E2;
-  --clr-link-water: #E0E6F4;
-  --clr-feta: #E2FAE3;
+  --clr-white-ice: #e3f8fa;
+  --clr-blue-chalk: #f5e6fe;
+  --clr-pipin: #ffe6e2;
+  --clr-link-water: #e0e6f4;
+  --clr-feta: #e2fae3;
   --font-nunito: 'Nunito', sans-serif;
   --font-poppins: 'Poppins', sans-serif;
+
+  /* --text-gradient: (
+    background: linear-gradient(180deg, #fff, hsla(0, 0%, 100%, 0.6)) ; -webkit-background-clip:
+      text; -webkit-text-fill-color: transparent; background-clip: text;
+  ); */
 }
 
 *:where(:not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol
@@ -196,6 +201,10 @@ meter {
 }
 
 @media (max-width: 768px) {
+  body {
+    font-size: 1.6rem;
+  }
+  
   .section {
     padding-inline: 2.4rem;
     padding-top: 4.2rem;
@@ -203,6 +212,11 @@ meter {
 
   .heading-1 {
     font-size: 2.8rem;
+    line-height: 3.4rem;
+  }
+
+  .heading-2 {
+    font-size: 2.6rem;
     line-height: 3.4rem;
   }
 }

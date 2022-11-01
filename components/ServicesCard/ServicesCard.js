@@ -3,7 +3,7 @@ import Link from "next/link"
 import styles from './ServicesCard.module.css'
 import PropTypes from 'prop-types';
 
-const ServicesCard = ({title, text, icon, color}) => {
+const ServicesCard = ({title, text, icon, color, slug}) => {
   return (
     <div
       className={styles.card}
@@ -14,7 +14,7 @@ const ServicesCard = ({title, text, icon, color}) => {
       </div>
       <h3 className={`heading-5 ${styles.title}`}>{title}</h3>
       <p className={styles.text}>{text}</p>
-      <Link href='/'>
+      <Link href={`/services/${slug}`}>
         <a className={styles.link}>Learn More</a>
       </Link>
     </div>

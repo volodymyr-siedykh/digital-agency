@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import { FaFacebook, FaInstagram, FaLinkedin, FaQuoteLeft, FaTwitter } from 'react-icons/fa';
 import Heading from '../Heading/Heading';
-import styles from './BlogPage.module.css';
+import styles from './BlogDetails.module.css';
 
-const BlogPage = ({ blog }) => {
+const BlogDetails = ({ blog }) => {
   const { image, tag, date, text1, text2, text3, quote } = blog;
   return (
     <section className='section'>
@@ -72,4 +72,4 @@ const BlogPage = ({ blog }) => {
   );
 };
 
-export default BlogPage;
+export default BlogDetails;
