@@ -2,11 +2,15 @@ import Heading from "../../components/Heading/Heading";
 import HeadingPages from "../../components/HeadingPages/HeadingPages";
 import ServicesAll from "../../components/Services/ServicesAll";
 import Subscription from "../../components/Subscription/Subscription";
-
+import { motion } from "framer-motion";
 
 const ServicesPage = () => {
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <HeadingPages title='Services' text='Home > Services' />
       <section className='section'>
         <Heading
@@ -22,7 +26,7 @@ const ServicesPage = () => {
         <ServicesAll />
       </section>
       <Subscription />
-    </>
+    </motion.div>
   );
 };
 

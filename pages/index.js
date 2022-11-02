@@ -4,28 +4,24 @@ import Hero from "../components/Hero/Hero";
 import Projects from "../components/Projects/Projects";
 import Services from "../components/Services/Services";
 import Subscription from "../components/Subscription/Subscription";
-import projects from '../constants/projects';
+import { motion } from "framer-motion";
 
 const Home = () => {
 
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <Hero />
-      <Projects projects={projects} />
+      <Projects />
       <Services />
       <Features />
       <Feedback />
       <Subscription />
-    </>
+    </motion.div>
   );
 };
 
 export default Home;
-
-// export const getStaticProps = async () => {
-//   return {
-//     props: {
-//       projects: projects,
-//     },
-//   };
-// };

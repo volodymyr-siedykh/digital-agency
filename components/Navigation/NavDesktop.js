@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import styles from './NavDesktop.module.css';
+import { motion } from 'framer-motion';
 
 const NavDesktop = () => {
   return (
@@ -32,9 +33,14 @@ const NavDesktop = () => {
         </li>
       </ul>
       <Link href='/contact'>
-        <a className={`btn btn-orange`} type='btn'>
+        <motion.a
+          whileHover={{ scale: 1.2 }}
+          whileTap={{ scale: 0.8 }}
+          className={`btn btn-orange`}
+          type='btn'
+        >
           Contact
-        </a>
+        </motion.a>
       </Link>
     </nav>
   );

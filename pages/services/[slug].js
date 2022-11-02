@@ -1,7 +1,7 @@
 import HeadingPages from '../../components/HeadingPages/HeadingPages';
 import services from '../../constants/services';
 import ServiceDetails from '../../components/Services/ServiceDetails';
-
+import { motion } from 'framer-motion';
 
 export const getStaticProps = async ({ params }) => {
   const serviceList = services.filter(
@@ -24,10 +24,14 @@ export const getStaticPaths = async () => {
 
 const ServiceDetailsPage = ({ service }) => {
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <HeadingPages title={service.title} text={`Home > Service`} />
       <ServiceDetails service={service} />
-    </>
+    </motion.div>
   );
 };
 

@@ -1,13 +1,10 @@
 import Link from 'next/link';
-// import { useRouter } from 'next/router';
 import styles from './NavMobile.module.css';
 
 const NavMobile = ({ setOpen }) => {
-  // const router = useRouter();
-
   const handle = () => {
     setTimeout(() => {
-      setOpen(!setOpen);  
+      setOpen(!setOpen);
     }, 100);
   };
 

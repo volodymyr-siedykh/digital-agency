@@ -2,9 +2,9 @@ import Link from 'next/link';
 import Heading from '../Heading/Heading';
 import ProjectCard from '../ProjectCard/ProjectCard';
 import styles from './Projects.module.css';
-// import projects from '../../constants/projects';
+import projects from '../../constants/projects';
 
-const Projects = ({ projects }) => {
+const Projects = () => {
   
   return (
     <section className='section'>
@@ -14,9 +14,9 @@ const Projects = ({ projects }) => {
           text='Praesent placerated egestas egestas cras rhone magna rutrum tellus laoreet'
         />
         <Link href='/projects'>
-          <button className={`btn btn-merino ${styles.btn_link}`}>
+          <a className={`btn btn-merino ${styles.btn_link}`}>
             See More
-          </button>
+          </a>
         </Link>
         <div className={styles.content}>
           {projects
