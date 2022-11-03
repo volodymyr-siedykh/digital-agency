@@ -3,9 +3,12 @@ import projects from '../../constants/projects';
 import Subscription from '../../components/Subscription/Subscription';
 import ProjectDetails from '../../components/Projects/ProjectPage';
 import { motion } from 'framer-motion';
+import Layout from '../../components/Layout/Layout';
 
 export const getStaticProps = async ({ params }) => {
-  const projectsList = projects.filter((x) => x.slug.toString() === params.slug);
+  const projectsList = projects.filter(
+    (x) => x.slug.toString() === params.slug
+  );
   return {
     props: {
       project: projectsList[0],
@@ -23,15 +26,18 @@ export const getStaticPaths = async () => {
 
 const ProjectDetailPage = ({ project }) => {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-    >
+    <Layout>
       <HeadingPages title={project.main_title} text={`Home > Project`} />
-      <ProjectDetails project={project} />
-      <Subscription />
-    </motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ delay: 0.2 }}
+      >
+        <ProjectDetails project={project} />
+        <Subscription />
+      </motion.div>
+    </Layout>
   );
 };
 

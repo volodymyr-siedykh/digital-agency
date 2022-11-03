@@ -6,8 +6,7 @@ export default function Layout({ title, children }) {
   return (
     <>
       <Head>
-        <title>{title ? title + ' - DGStart' : 'DGStart'}</title>
-        <meta name='description' content='Digital Agency' />
+        <title>{title ? 'DGStart - ' + title : 'DGStart - Digital Agency'}</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <>

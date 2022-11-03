@@ -5,7 +5,7 @@ const NavMobile = ({ setOpen }) => {
   const handle = () => {
     setTimeout(() => {
       setOpen(!setOpen);
-    }, 100);
+    }, 300);
   };
 
   return (

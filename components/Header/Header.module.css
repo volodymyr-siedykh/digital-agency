@@ -1,9 +1,12 @@
 .header {
-  background-color: var(--clr-merino);
+  position: absolute;
+  width: 100%;
+  /* background-color: var(--clr-merino); */
   padding-top: 4.5rem;
   padding-inline: 13.5rem;
   font-weight: 500;
   color: var(--clr-black-primary);
+  z-index: 100;
 }
 
 .header__container {

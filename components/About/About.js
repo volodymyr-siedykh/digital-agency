@@ -17,7 +17,7 @@ const About = () => {
         />
         <div className={styles.content}>
           <Heading
-            title='Know More About - Dev Agency & Their Process'
+            title='Know More About - DGStart & Our Process'
             text='Nulla volutpat enim lorem, non volutpat tortor consequa ac Quisque ipsum arcu, vehicula sit amet tempor non, blandite proin dignissim vitae ipsum a laoreet. In molestie imperdiet vehicula urna. Ut ullamcorper neque dui, imperdiet ornared at augue. Donec semper velit eget urna aliquet.'
           />
           <div className={styles.counters}>
