@@ -1,8 +1,8 @@
 import BlogDetails from '../../components/Blog/BlogDetails';
 import HeadingPages from '../../components/HeadingPages/HeadingPages';
 import blogs from '../../constants/blogs';
-import Layout from '../../components/Layout/Layout';
 import { motion } from 'framer-motion';
+import Head from 'next/head';
 
 export const getStaticProps = async ({ params }) => {
   const blogList = blogs.filter((x) => x.slug.toString() === params.slug);
@@ -23,7 +23,10 @@ export const getStaticPaths = async () => {
 
 const BlogDetailsPage = ({ blog }) => {
   return (
-    <Layout>
+    <>
+    <Head>
+      <title>DGStart - {blog.title}</title>
+    </Head>
       <HeadingPages title={blog.title} text={`Home > Blog`} />
       <motion.div
         initial={{ opacity: 0 }}
@@ -33,7 +36,7 @@ const BlogDetailsPage = ({ blog }) => {
       >
         <BlogDetails blog={blog} />
       </motion.div>
-    </Layout>
+    </>
   );
 };
 

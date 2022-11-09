@@ -32,15 +32,15 @@
 }
 
 .input {
-  box-shadow: 0px 30px 49px rgba(156, 45, 0, 0.09);
+  /* box-shadow: 0px 30px 49px rgba(156, 45, 0, 0.09); */
+  border: 1px solid var(--clr-hurricane);
   border-radius: 8px;
-  padding: 1.5rem 15rem 1.5rem 2.5rem;
+  padding: 2rem 15rem 2rem 2.5rem;
   width: 100%;
 }
 
 .form_control button {
-  margin-left: -15.5rem;
-  height: 4.6rem;
+  margin-left: -15rem;
 }
 
 @media(max-width: 500px) {

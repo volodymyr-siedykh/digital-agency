@@ -2,12 +2,15 @@ import BlogAll from '../../components/Blog/BlogAll';
 import Heading from '../../components/Heading/Heading';
 import HeadingPages from '../../components/HeadingPages/HeadingPages';
 import Subscription from '../../components/Subscription/Subscription';
-import Layout from '../../components/Layout/Layout';
 import {motion} from 'framer-motion'
+import Head from 'next/head';
 
 const BlogPage = () => {
   return (
-    <Layout title='Blog'>
+    <>
+    <Head>
+      <title>DGStart - Blog</title>
+    </Head>
       <HeadingPages title='Blog' text='Home > Blog' />
       <motion.section
         initial={{ opacity: 0 }}
@@ -29,7 +32,7 @@ const BlogPage = () => {
         <BlogAll />
       </motion.section>
       <Subscription />
-    </Layout>
+    </>
   );
 };
 

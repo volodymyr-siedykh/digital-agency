@@ -3,11 +3,14 @@ import Heading from '../../components/Heading/Heading';
 import ProjectsAll from '../../components/Projects/ProjectsAll';
 import Subscription from '../../components/Subscription/Subscription';
 import { motion } from 'framer-motion';
-import Layout from '../../components/Layout/Layout';
+import Head from 'next/head';
 
 const ProjectsPage = () => {
   return (
-    <Layout title='Projects'>
+    <>
+    <Head>
+      <title>DGStart - Projects</title>
+    </Head>
       <HeadingPages title='Our Projects' text='Home > Projects' />
       <motion.section
         initial={{ opacity: 0 }}
@@ -29,7 +32,7 @@ const ProjectsPage = () => {
         <ProjectsAll />
       </motion.section>
       <Subscription />
-    </Layout>
+    </>
   );
 };
 

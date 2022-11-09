@@ -33,7 +33,7 @@ const NavDesktop = () => {
       </ul>
       <Link href='/contact'>
         <a
-          className={`btn btn-orange`}
+          className={`btn btn-orange ${styles.header_btn}`}
           type='btn'
         >
           Contact

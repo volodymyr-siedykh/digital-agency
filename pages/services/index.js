@@ -3,11 +3,14 @@ import HeadingPages from '../../components/HeadingPages/HeadingPages';
 import ServicesAll from '../../components/Services/ServicesAll';
 import Subscription from '../../components/Subscription/Subscription';
 import { motion } from 'framer-motion';
-import Layout from '../../components/Layout/Layout';
+import Head from 'next/head';
 
 const ServicesPage = () => {
   return (
-    <Layout title='Services'>
+    <>
+    <Head>
+      <title>DGStart - Services</title>
+    </Head>
       <HeadingPages title='Services' text='Home > Services' />
       <motion.section
         initial={{ opacity: 0 }}
@@ -29,7 +32,7 @@ const ServicesPage = () => {
         <ServicesAll />
       </motion.section>
       <Subscription />
-    </Layout>
+    </>
   );
 };
 

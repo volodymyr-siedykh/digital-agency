@@ -9,7 +9,6 @@ export default function Document() {
         <meta name='description' content='Digital Agency' />
         <meta name='keywords' content='Digital Agency' />
         <meta name='author' content='Volodymyr Siedykh' />
-        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
         <link
           href='https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&family=Poppins:wght@400;500&display=swap'
           rel='stylesheet'

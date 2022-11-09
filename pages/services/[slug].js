@@ -2,7 +2,7 @@ import HeadingPages from '../../components/HeadingPages/HeadingPages';
 import services from '../../constants/services';
 import ServiceDetails from '../../components/Services/ServiceDetails';
 import { motion } from 'framer-motion';
-import Layout from '../../components/Layout/Layout';
+import Head from 'next/head';
 
 export const getStaticProps = async ({ params }) => {
   const serviceList = services.filter((x) => x.slug.toString() === params.slug);
@@ -23,7 +23,10 @@ export const getStaticPaths = async () => {
 
 const ServiceDetailsPage = ({ service }) => {
   return (
-    <Layout>
+    <>
+    <Head>
+      <title>DGStart - {service.title}</title>
+    </Head>
       <HeadingPages title={service.title} text={`Home > Service`} />
       <motion.div
         initial={{ opacity: 0 }}
@@ -33,7 +36,7 @@ const ServiceDetailsPage = ({ service }) => {
       >
         <ServiceDetails service={service} />
       </motion.div>
-    </Layout>
+    </>
   );
 };
 

@@ -3,7 +3,7 @@ import projects from '../../constants/projects';
 import Subscription from '../../components/Subscription/Subscription';
 import ProjectDetails from '../../components/Projects/ProjectPage';
 import { motion } from 'framer-motion';
-import Layout from '../../components/Layout/Layout';
+import Head from 'next/head';
 
 export const getStaticProps = async ({ params }) => {
   const projectsList = projects.filter(
@@ -26,7 +26,10 @@ export const getStaticPaths = async () => {
 
 const ProjectDetailPage = ({ project }) => {
   return (
-    <Layout>
+    <>
+    <Head>
+      <title>DGStart - {project.title}</title>
+    </Head>
       <HeadingPages title={project.main_title} text={`Home > Project`} />
       <motion.div
         initial={{ opacity: 0 }}
@@ -37,7 +40,7 @@ const ProjectDetailPage = ({ project }) => {
         <ProjectDetails project={project} />
         <Subscription />
       </motion.div>
-    </Layout>
+    </>
   );
 };
 
