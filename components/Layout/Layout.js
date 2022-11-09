@@ -2,11 +2,11 @@ import Head from 'next/head';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 
-export default function Layout({ title, children }) {
+export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>{title ? 'DGStart - ' + title : 'DGStart - Digital Agency'}</title>
+        <title>DGStart - Digital Agency</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <>
