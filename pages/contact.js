@@ -6,14 +6,14 @@ import HeadingPages from '../components/HeadingPages/HeadingPages';
 const ContactPage = () => {
   return (
     <>
-    <Head>
-      <title>DGStart - Contact</title>
-    </Head>
-        <HeadingPages title='Contact' text='Home > Contact' />
-        <section className='section'>
-          <Contact />
-          <ContactForm />
-        </section>
+      <Head>
+        <title>DGStart - Contact</title>
+      </Head>
+      <HeadingPages title='Contact' text='Home > Contact' />
+      <section className='section'>
+        <Contact />
+        <ContactForm />
+      </section>
     </>
   );
 };

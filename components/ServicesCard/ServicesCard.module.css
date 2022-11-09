@@ -14,6 +14,11 @@
 .text {
   margin-top: 0.8rem;
   margin-bottom: 2.4rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
 }
 
 .link {

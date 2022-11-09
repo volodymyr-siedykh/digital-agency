@@ -6,8 +6,9 @@ const Subscription = () => {
       <div className={styles.subscr_title}>
         <h2 className='heading-2'>Newsletter Subscription</h2>
         <p className='text'>
-          Praesent placerated egestas egestas cras rhone magna rutrum tellus
-          laoreet
+          If you&#39;re interested in staying up-to-date on the latest web design
+          and development trends, subscribing to a newsletter is a great way to
+          do so
         </p>
       </div>
       <form className={styles.form}>
@@ -17,7 +18,9 @@ const Subscription = () => {
             className={styles.input}
             placeholder='Enter your email address'
           />
-          <button type='submit' className='btn btn-orange'>Subscribe</button>
+          <button type='submit' className='btn btn-orange'>
+            Subscribe
+          </button>
         </div>
       </form>
     </section>

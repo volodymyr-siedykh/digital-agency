@@ -10,13 +10,11 @@ const Projects = () => {
     <section className='section'>
       <div className={`container container-center ${styles.project}`}>
         <Heading
-          title='Our Projects'
-          text='Praesent placerated egestas egestas cras rhone magna rutrum tellus laoreet'
+          title='Projects'
+          text='Our web development and ux/ui design projects'
         />
         <Link href='/projects'>
-          <a className={`btn btn-merino ${styles.btn_link}`}>
-            See More
-          </a>
+          <a className={`btn btn-merino ${styles.btn_link}`}>See More</a>
         </Link>
         <div className={styles.content}>
           {projects

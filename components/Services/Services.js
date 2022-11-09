@@ -11,7 +11,7 @@ const Services = () => {
         <div className={styles.services}>
           <Heading
             title='What We Provide'
-            text='Praesent placerated egestas egestas cras rhone magna rutrum tellus laoreet'
+            text='We believe that our services are the best in the industry and we are always working to improve them'
           />
           <Link href='/services'>
             <a className={`btn btn-merino ${styles.btn_link}`} type='button'>

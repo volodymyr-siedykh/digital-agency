@@ -9,18 +9,20 @@ const Features = () => {
         <div className={styles.heading_1}>
           <Heading title='Providing The World&#39;s Best User Experiences' />
           <p>
-            Vestibulum blandit ut nunc vel bibendum semper elit eget dignissim
-            rhoncus, nisl augue lacinia urna vel rutrum nisi nunc sit amet risus
-            nulla ornare egestas.
+            The world&#39;s best user experiences are created through a
+            combination of web development, ux design, and app development. By
+            understanding the needs and wants of users, we can create websites,
+            apps, and other digital products that are easy to use and provide a
+            great experience
           </p>
           <div className={styles.feature_content}>
             <div className={styles.features__item}>
               <Image src='/images/tick.svg' width={26} height={26} alt='tick' />
-              <p>Blandit ut nunc vel bibendum semper elit</p>
+              <p>Our products are intuitive and meet the needs</p>
             </div>
             <div className={styles.features__item}>
               <Image src='/images/tick.svg' width={26} height={26} alt='tick' />
-              <p>Blandit ut nunc vel bibendum semper elit</p>
+              <p>We create products that people love to use</p>
             </div>
           </div>
         </div>
@@ -44,18 +46,19 @@ const Features = () => {
         <div className={styles.heading_2}>
           <Heading title='Explore Your Best Ideas On A Whiteboard' />
           <p>
-            Vestibulum blandit ut nunc vel bibendum semper elit eget dignissim
-            rhoncus, nisl augue lacinia urna vel rutrum nisi nunc sit amet risus
-            nulla ornare egestas.
+            There&#39;s nothing quite like a whiteboard for exploring your best
+            ideas. Whether you&#39;re brainstorming web development ideas,
+            designing user interfaces, or developing apps, a whiteboard is the
+            perfect tool for getting your thoughts down quickly and easily
           </p>
           <div className={styles.feature_content}>
             <div className={styles.features__item}>
               <Image src='/images/tick.svg' width={26} height={26} alt='tick' />
-              <p>Blandit ut nunc vel bibendum semper elit</p>
+              <p>Easily erase and change your ideas as you go</p>
             </div>
             <div className={styles.features__item}>
               <Image src='/images/tick.svg' width={26} height={26} alt='tick' />
-              <p>Blandit ut nunc vel bibendum semper elit</p>
+              <p>Making the process of ideation that much more flexible</p>
             </div>
           </div>
         </div>

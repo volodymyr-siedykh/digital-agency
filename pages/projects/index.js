@@ -8,9 +8,9 @@ import Head from 'next/head';
 const ProjectsPage = () => {
   return (
     <>
-    <Head>
-      <title>DGStart - Projects</title>
-    </Head>
+      <Head>
+        <title>DGStart - Projects</title>
+      </Head>
       <HeadingPages title='Our Projects' text='Home > Projects' />
       <motion.section
         initial={{ opacity: 0 }}
@@ -27,7 +27,7 @@ const ProjectsPage = () => {
             textAlign: 'center',
           }}
           title='Best works'
-          text='Praesent placerated egestas egestas cras rhone magna rutrum tellus laoreet'
+          text='Our best projects are those that require both web design and web development. Our team works hard to ensure that each project is completed to the client&#39;s satisfaction'
         />
         <ProjectsAll />
       </motion.section>

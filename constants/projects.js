@@ -8,9 +8,9 @@ const projects = [
     feature: true,
     image: '/images/project-1.png',
     text1:
-      'Nulla volutpat enim lorem, non volutpat tortor consequa ac Quisque ipsum arcu, vehicula sit amet tempor non, blandite proin dignissim vitae ipsum a laoreet. In molestie imperdiet vehicula urna. Ut ullamcorper neque dui, imperdiet ornared at augue. Donec semper velit eget urna volutpat aliquet. Donec eget sollicitudin congue.',
+      'The Watch - Product Responsive Landing Page is the perfect way to promote your product on the web. This responsive landing page is designed to look great on all devices, from desktop to mobile. With a clean and modern design, it is easy to customize this landing page to match your brand. Simply add your logo, product photos, and product information, and you are ready to go!',
     text2:
-      'Proin gravida ex eget augue eleifend eleifen Integer auctor vehicula urna. Ut ullamcorper neque dui, imperdiet ornare ipsum semper quis. Sed lorem ipsum, molestie in leo ac, convallis eleifend diam. Pellentesque condimentum mauris neque, at vestibulum sapien hendrerit fringilla. ',
+      '',
   },
   {
     id: 2,
@@ -21,9 +21,9 @@ const projects = [
     feature: true,
     image: '/images/project-2.png',
     text1:
-      'Nulla volutpat enim lorem, non volutpat tortor consequa ac Quisque ipsum arcu, vehicula sit amet tempor non, blandite proin dignissim vitae ipsum a laoreet. In molestie imperdiet vehicula urna. Ut ullamcorper neque dui, imperdiet ornared at augue. Donec semper velit eget urna volutpat aliquet. Donec eget sollicitudin congue.',
+      'SEO Agency - Creative Landing Page Looking for an affordable and creative landing page for your business? Look no further than SEO Agency. Our team of experts will work with you to create a stylish, stylish landing page optimized for search engines. We understand that first impressions are essential, so we will ensure that your landing page is visually appealing and informative. We will also work to ensure that your page is optimized for search engines so that potential customers can easily find you online. Get in touch with SEO Agency today to discuss your landing page needs. We look forward to helping you take your business to the next level!',
     text2:
-      'Proin gravida ex eget augue eleifend eleifen Integer auctor vehicula urna. Ut ullamcorper neque dui, imperdiet ornare ipsum semper quis. Sed lorem ipsum, molestie in leo ac, convallis eleifend diam. Pellentesque condimentum mauris neque, at vestibulum sapien hendrerit fringilla. ',
+      '',
   },
   {
     id: 3,
@@ -34,9 +34,9 @@ const projects = [
     feature: false,
     image: '/images/project-3.png',
     text1:
-      'Nulla volutpat enim lorem, non volutpat tortor consequa ac Quisque ipsum arcu, vehicula sit amet tempor non, blandite proin dignissim vitae ipsum a laoreet. In molestie imperdiet vehicula urna. Ut ullamcorper neque dui, imperdiet ornared at augue. Donec semper velit eget urna volutpat aliquet. Donec eget sollicitudin congue.',
+      'E-Online is the perfect place to get your education. We offer a variety of courses that will fit your needs and schedule. Whether you are looking for an online course or a traditional classroom setting, we have the perfect solution for you. With our flexible scheduling and convenient location, we make it easy for you to get the education you need. E-Online is the perfect choice for busy adults who want to get their education without sacrificing their busy lifestyles.',
     text2:
-      'Proin gravida ex eget augue eleifend eleifen Integer auctor vehicula urna. Ut ullamcorper neque dui, imperdiet ornare ipsum semper quis. Sed lorem ipsum, molestie in leo ac, convallis eleifend diam. Pellentesque condimentum mauris neque, at vestibulum sapien hendrerit fringilla. ',
+      '',
   },
   {
     id: 4,
@@ -47,9 +47,9 @@ const projects = [
     feature: false,
     image: '/images/project-4.png',
     text1:
-      'Nulla volutpat enim lorem, non volutpat tortor consequa ac Quisque ipsum arcu, vehicula sit amet tempor non, blandite proin dignissim vitae ipsum a laoreet. In molestie imperdiet vehicula urna. Ut ullamcorper neque dui, imperdiet ornared at augue. Donec semper velit eget urna volutpat aliquet. Donec eget sollicitudin congue.',
+      'MDCL is medical landing page is the perfect way to get information on a variety of medical topics. With easy-to-use search functionality, you can find the information you need quickly and easily. MDCL provides reliable, up-to-date information on a variety of medical topics, making it the perfect resource for both medical professionals and patients alike.',
     text2:
-      'Proin gravida ex eget augue eleifend eleifen Integer auctor vehicula urna. Ut ullamcorper neque dui, imperdiet ornare ipsum semper quis. Sed lorem ipsum, molestie in leo ac, convallis eleifend diam. Pellentesque condimentum mauris neque, at vestibulum sapien hendrerit fringilla. ',
+      '',
   },
 ];
 

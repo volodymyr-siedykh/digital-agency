@@ -8,9 +8,9 @@ import Head from 'next/head';
 const AboutPage = () => {
   return (
     <>
-    <Head>
-      <title>DGStart - About Us</title>
-    </Head>
+      <Head>
+        <title>DGStart - About Us</title>
+      </Head>
       <HeadingPages title='About Us' text='Home > About Us' />
       <motion.div
         initial={{ opacity: 0 }}

@@ -27,9 +27,9 @@ export const getStaticPaths = async () => {
 const ProjectDetailPage = ({ project }) => {
   return (
     <>
-    <Head>
-      <title>DGStart - {project.title}</title>
-    </Head>
+      <Head>
+        <title>DGStart - {project.title}</title>
+      </Head>
       <HeadingPages title={project.main_title} text={`Home > Project`} />
       <motion.div
         initial={{ opacity: 0 }}

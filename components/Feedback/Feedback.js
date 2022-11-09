@@ -8,8 +8,7 @@ const Feedback = () => {
       <div className='container container-center'>
         <Heading
           title='Customers Feedback'
-          text='Praesent placerated egestas egestas cras rhone magna rutrum tellus
-          laoreet'
+          text='What our customers say about us'
         />
         <div className={styles.feedback_container}>
           <div className={styles.feedback_item}>
@@ -24,11 +23,13 @@ const Feedback = () => {
             <div className={`heading-5 ${styles.feedback_title}`}>
               Callum Bolton
             </div>
-            <div className={styles.feedback_job}>Ui/Ux Designer</div>
+            <div className={styles.feedback_job}>Enterpronoure</div>
             <p className={styles.feedback_text}>
-              Nulla pulvinar felis ipsum. Nulla facilisi. Duis placerat erd urna
-              Lorem ipsum dolor sit amet con adipiscing elit. Proin gravida orc
-              pulvinar aliquet.
+              If you&#39;re looking for a top-notch web agency, look no further
+              than it&#39;s the best web agency. They offer a wide range of
+              services, from website design and development to online marketing
+              and SEO. No matter your needs, the best web agency can help you
+              achieve your goals.
             </p>
           </div>
           <div className={styles.feedback_item}>
@@ -43,11 +44,12 @@ const Feedback = () => {
             <div className={`heading-5 ${styles.feedback_title}`}>
               Ethan Brooks
             </div>
-            <div className={styles.feedback_job}>Web Developer</div>
+            <div className={styles.feedback_job}>Enterpronoure</div>
             <p className={styles.feedback_text}>
-              Nulla pulvinar felis ipsum. Nulla facilisi. Duis placerat erd urna
-              Lorem ipsum dolor sit amet con adipiscing elit. Proin gravida orc
-              pulvinar aliquet.
+              DGStart agency has a team of highly skilled and experienced
+              professionals who are always ready to go the extra mile to ensure
+              your success. So if you want to take your business to the next
+              level, the best web agency is the perfect partner.
             </p>
           </div>
         </div>

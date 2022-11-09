@@ -8,9 +8,9 @@ import Head from 'next/head';
 const ServicesPage = () => {
   return (
     <>
-    <Head>
-      <title>DGStart - Services</title>
-    </Head>
+      <Head>
+        <title>DGStart - Services</title>
+      </Head>
       <HeadingPages title='Services' text='Home > Services' />
       <motion.section
         initial={{ opacity: 0 }}
@@ -27,7 +27,7 @@ const ServicesPage = () => {
             textAlign: 'center',
           }}
           title='What We Provide'
-          text='Praesent placerated egestas egestas cras rhone magna rutrum tellus laoreet'
+          text='Our web design and development services are second to none. We have a team of experienced professionals who are passionate about their work and dedicated to providing our clients with the best possible results.'
         />
         <ServicesAll />
       </motion.section>
