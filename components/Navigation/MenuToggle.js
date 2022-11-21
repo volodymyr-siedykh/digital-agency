@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { useEffect } from 'react';
 import styles from './MenuToggle.module.css';
 
 const Path = (props) => (
@@ -13,6 +14,18 @@ const Path = (props) => (
 const transition = { duration: 0.33 };
 
 const MenuToggle = ({toggle, isOpen}) => {
+
+  useEffect(() => {
+    //get original value of body
+    const originalStyle = window.getComputedStyle(document.body).overflow;
+    console.log(originalStyle);
+    //prevent scrolling on mount
+    if (isOpen) {
+      document.body.style.overflow = 'hidden';
+    }
+    // re-enable scrolling when component unmounts
+    return () => (document.body.style.overflow = originalStyle);
+  }, [isOpen]);
 
   return (
     <div onClick={toggle} className={styles.toggle}>
