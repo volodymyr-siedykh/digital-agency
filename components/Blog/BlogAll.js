@@ -1,12 +1,12 @@
 import styles from './BlogAll.module.css';
 import BlogCard from './BlogCard';
-import blogs from '../../constants/blogs';
 
-const BlogAll = () => {
+const BlogAll = ({posts}) => {
+
   return (
     <div className={`container container-center ${styles.container}`}>
-      {blogs.map((blog) => (
-        <BlogCard key={blog.id} {...blog} />
+      {posts.map((post, index) => (
+        <BlogCard key={index} post={post} />
       ))}
     </div>
   );

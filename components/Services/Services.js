@@ -13,10 +13,11 @@ const Services = () => {
             title='What We Provide'
             text='We believe that our services are the best in the industry and we are always working to improve them'
           />
-          <Link href='/services'>
-            <a className={`btn btn-merino ${styles.btn_link}`} type='button'>
-              See More
-            </a>
+          <Link
+            href='/services'
+            className={`btn btn-merino ${styles.btn_link}`}
+          >
+            See More
           </Link>
           <div className={styles.content}>
             {services

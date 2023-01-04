@@ -12,45 +12,33 @@ const NavMobile = ({ setOpen }) => {
     <nav className={styles.nav}>
       <ul className={styles.list}>
         <li>
-          <Link href='/'>
-            <a className='' onClick={handle}>
-              Home
-            </a>
+          <Link href='/' className='' onClick={handle}>
+            Home
           </Link>
         </li>
         <li>
-          <Link href='/services'>
-            <a className='' onClick={handle}>
-              Our Services
-            </a>
+          <Link href='/services' className='' onClick={handle}>
+            Our Services
           </Link>
         </li>
         <li>
-          <Link href='/projects'>
-            <a className='' onClick={handle}>
-              Projects
-            </a>
+          <Link href='/projects' className='' onClick={handle}>
+            Projects
           </Link>
         </li>
         <li>
-          <Link href='/blog'>
-            <a className='' onClick={handle}>
-              Blog
-            </a>
+          <Link href='/blog' className='' onClick={handle}>
+            Blog
           </Link>
         </li>
         <li>
-          <Link href='/about'>
-            <a className='' onClick={handle}>
-              About
-            </a>
+          <Link href='/about' className='' onClick={handle}>
+            About
           </Link>
         </li>
         <li>
-          <Link href='/contact'>
-            <a className='' onClick={handle}>
-              Contact
-            </a>
+          <Link href='/contact' className='' onClick={handle}>
+            Contact
           </Link>
         </li>
       </ul>

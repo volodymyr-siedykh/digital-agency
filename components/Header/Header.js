@@ -23,10 +23,8 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.header__container}>
         <div className='header__logo'>
-          <Link href='/'>
-            <a className={styles.logo}>
-              <span>DG</span>Start
-            </a>
+          <Link href='/' className={styles.logo}>
+            <span>DG</span>Start
           </Link>
         </div>
         {!isMobile && <NavDesktop />}

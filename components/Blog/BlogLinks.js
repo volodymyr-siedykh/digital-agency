@@ -1,33 +1,10 @@
-import Image from 'next/image';
-import { FaFacebook, FaInstagram, FaLinkedin, FaQuoteLeft, FaTwitter } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import Heading from '../Heading/Heading';
-import styles from './BlogDetails.module.css';
+import styles from './BlogLinks.module.css';
 
-const BlogDetails = ({ blog }) => {
-  const { image, tag, date, text1, text2, text3, quote } = blog;
+const BlogLinks = ({ tag }) => {
   return (
-    <section className='section'>
-      <div className='container container-center'>
-        <div className={styles.content}>
-          <Image
-            src={image}
-            alt='tag image'
-            width={363}
-            height={240}
-            layout='responsive'
-          />
-          <div className={styles.date}>{date}</div>
-          <h3 className='heading-4'>User Interview</h3>
-          <p className={styles.text}>{text1}</p>
-          <div className={styles.quote}>
-            <FaQuoteLeft className={styles.icon}/>
-            <p>{quote}</p>
-          </div>
-          <h3 className='heading-4'>Problem Solving</h3>
-          <p className={styles.text}>{text2}</p>
-          <h3 className='heading-4'>Interface Design</h3>
-          <p className={styles.text}>{text3}</p>
-        </div>
+      <div className={styles.blogLinks}>
         <div className={styles.links}>
           <div className={styles.socials}>
             <span>Socials:</span>
@@ -68,8 +45,7 @@ const BlogDetails = ({ blog }) => {
           </form>
         </div>
       </div>
-    </section>
   );
 };
 
-export default BlogDetails;
+export default BlogLinks;

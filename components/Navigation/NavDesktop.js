@@ -6,38 +6,23 @@ const NavDesktop = () => {
     <nav className={styles.nav}>
       <ul className={styles.list}>
         <li>
-          <Link href='/'>
-            <a className=''>Home</a>
-          </Link>
+          <Link href='/'>Home</Link>
         </li>
         <li>
-          <Link href='/services'>
-            <a className=''>Our Services</a>
-          </Link>
+          <Link href='/services'>Our Services</Link>
         </li>
         <li>
-          <Link href='/projects'>
-            <a className=''>Projects</a>
-          </Link>
+          <Link href='/projects'>Projects</Link>
         </li>
         <li>
-          <Link href='/blog'>
-            <a className=''>Blog</a>
-          </Link>
+          <Link href='/blog'>Blog</Link>
         </li>
         <li>
-          <Link href='/about'>
-            <a className=''>About</a>
-          </Link>
+          <Link href='/about'>About</Link>
         </li>
       </ul>
-      <Link href='/contact'>
-        <a
-          className={`btn btn-orange ${styles.header_btn}`}
-          type='btn'
-        >
-          Contact
-        </a>
+      <Link href='/contact' className={`btn btn-orange ${styles.header_btn}`}>
+        Contact
       </Link>
     </nav>
   );

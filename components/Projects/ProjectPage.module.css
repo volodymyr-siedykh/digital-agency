@@ -55,5 +55,20 @@
     margin-top: 4.2rem;
     padding: 4rem;
     gap: 3.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    text-align: center;
+    justify-items: center;
+  }
+}
+
+@media(max-width: 576px) {
+  .details {
+    padding: 3rem;
   }
 }

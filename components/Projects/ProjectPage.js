@@ -17,7 +17,7 @@ const ProjectDetails = ({ project }) => {
             alt={project.title}
             width={565}
             height={565}
-            layout='responsive'
+            style={{ width: '100%', height: 'auto' } }
           />
         </div>
         <div className={styles.details}>
@@ -27,6 +27,7 @@ const ProjectDetails = ({ project }) => {
               alt='icon details'
               width={85}
               height={85}
+              
             />
             <div className={styles.descr}>
               <div>Client</div>

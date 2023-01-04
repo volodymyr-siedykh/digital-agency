@@ -1,3 +1,9 @@
+.blogLinks {
+  max-width: 76.8rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .content {
   padding-bottom: 5rem;
   border-bottom: 2px solid #F4ECE0;

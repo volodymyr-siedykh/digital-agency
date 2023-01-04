@@ -14,8 +14,8 @@ const ServicesCard = ({title, text, icon, color, slug}) => {
       </div>
       <h3 className={`heading-5 ${styles.title}`}>{title}</h3>
       <p className={styles.text}>{text}</p>
-      <Link href={`/services/${slug}`}>
-        <a className={styles.link}>Learn More</a>
+      <Link href={`/services/${slug}`} className={styles.link}>
+        Learn More
       </Link>
     </div>
   );

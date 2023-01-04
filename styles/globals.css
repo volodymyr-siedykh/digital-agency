@@ -36,6 +36,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -117,6 +119,45 @@ meter {
   margin-inline: auto;
 }
 
+.article {
+  max-width: 76.8rem;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding-inline: 2.4rem;
+  margin-top: 2.4rem;
+}
+
+.article h2 {
+  font-family: var(--font-nunito);
+  font-size: 2.8rem;
+  font-weight: 800;
+  line-height: 3.4rem;
+  color: var(--clr-asphalt);
+  margin-top: 2.4rem;
+}
+
+.article img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 1.6rem;
+  margin-top: 2.4rem;
+}
+
+.article li {
+  margin-top: 1.6rem;
+  list-style: inside;
+  list-style-type: decimal;
+}
+
+.article li::marker {
+  color: black;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
 .position-rel {
   position: relative;
 }
@@ -127,27 +168,50 @@ meter {
 
 .heading-1 {
   font-family: var(--font-nunito);
-  font-size: 5.4rem;
   font-weight: 800;
-  line-height: 6.6rem;
+  line-height: 1.375;
   color: var(--clr-black-primary);
+}
+
+@media screen and (max-width: 576px) {
+  .heading-1 {
+    font-size: calc(6rem + 1vw - 2rem);
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .heading-1 {
+    font-size: calc(7rem + 2vw - 2rem);
+  }
 }
 
 .heading-2 {
   font-family: var(--font-nunito);
-  font-size: 3.6rem;
   font-weight: 800;
-  line-height: 4.6rem;
+  line-height: 1.4;
   color: var(--clr-asphalt);
+}
+
+@media screen and (max-width: 576px) {
+  .heading-2 {
+    font-size: calc(4rem + 1vw - 2rem);
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .heading-2 {
+    font-size: calc(4rem + 2vw - 2rem);
+  }
 }
 
 .heading-3 {
   font-family: var(--font-nunito);
-  font-size: 2.8rem;
   font-weight: 800;
-  line-height: 3.4rem;
+  font-size: 2.4rem;
+  line-height: 1.2;
   color: var(--clr-asphalt);
 }
+
 
 .heading-4 {
   font-family: var(--font-nunito);
@@ -208,15 +272,5 @@ meter {
   .section {
     padding-inline: 2.4rem;
     padding-top: 4.2rem;
-  }
-
-  .heading-1 {
-    font-size: 2.8rem;
-    line-height: 3.4rem;
-  }
-
-  .heading-2 {
-    font-size: 2.6rem;
-    line-height: 3.4rem;
   }
 }

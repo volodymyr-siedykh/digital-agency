@@ -2,10 +2,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from './BlogCard.module.css';
 
-const BlogCard = ({ title, image, date, tag, slug }) => {
+const BlogCard = ({post}) => {
+  const { title, tag, date, image } = post.frontmatter;
+  const { slug } = post;
+
   return (
     <Link href={`/blog/${slug}`}>
-      <a>
         <div className={styles.container}>
           <Image src={image} alt={title} width={363} height={240} />
           <div className={styles.content}>
@@ -14,7 +16,6 @@ const BlogCard = ({ title, image, date, tag, slug }) => {
             <div className={styles.date}>{date}</div>
           </div>
         </div>
-      </a>
     </Link>
   );
 };

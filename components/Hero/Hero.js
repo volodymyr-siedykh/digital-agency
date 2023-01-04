@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
-import Image from 'next/image';
-// import Link from 'next/link';
+import Link from 'next/link';
 import styles from './Hero.module.css';
 
 const Hero = () => {
@@ -16,15 +15,9 @@ const Hero = () => {
         >
           We Build <span>Digital</span> Product For Your Success
         </motion.h1>
-        {/* <Link href='/'><a className='btn btn-orange'>Get Started</a></Link> */}
-        <div className={styles.hero__img}>
-          <Image
-            src='/images/hero.svg'
-            alt='main pic'
-            width={1130}
-            height={700}
-          />
-        </div>
+        <Link href='/' className='btn btn-orange'>
+          Get Started
+        </Link>
       </div>
     </section>
   );

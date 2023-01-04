@@ -34,8 +34,8 @@ const About = () => {
               <p>Days Of Work</p>
             </div>
           </div>
-          <Link href='/'>
-            <a className='btn btn-orange'>Learn More</a>
+          <Link href='/' className='btn btn-orange'>
+            Learn More
           </Link>
         </div>
       </div>

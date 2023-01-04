@@ -18,5 +18,7 @@
 .list {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 4rem;
+  font-size: 3.5rem;
+  text-transform: uppercase;
 }

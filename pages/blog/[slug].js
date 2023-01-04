@@ -1,43 +1,88 @@
-import BlogDetails from '../../components/Blog/BlogDetails';
+/* eslint-disable @next/next/no-img-element */
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
+import ReactMarkdown from 'react-markdown';
 import HeadingPages from '../../components/HeadingPages/HeadingPages';
-import blogs from '../../constants/blogs';
 import { motion } from 'framer-motion';
 import Head from 'next/head';
+import BlogLinks from '../../components/Blog/BlogLinks';
+import Image from 'next/image';
 
-export const getStaticProps = async ({ params }) => {
-  const blogList = blogs.filter((x) => x.slug.toString() === params.slug);
-  return {
-    props: {
-      blog: blogList[0],
+const BlogDetailsPage = ({
+  frontmatter: { title, tag, image },
+  content,
+}) => {
+  
+  const customComponents = {
+    img(image) {
+      return (
+          <img
+            src={`/images/posts/${image.src}`}
+            alt={image.alt}
+          />
+      );
     },
   };
-};
-
-export const getStaticPaths = async () => {
-  const paths = blogs.map((blog) => ({
-    params: { slug: blog.slug.toString() },
-  }));
-
-  return { paths, fallback: false };
-};
-
-const BlogDetailsPage = ({ blog }) => {
   return (
     <>
       <Head>
-        <title>DGStart - {blog.title}</title>
+        <title>DGStart - {title}</title>
       </Head>
-      <HeadingPages title={blog.title} text={`Home > Blog`} />
-      <motion.div
+      <HeadingPages title={title} text={`Home > Blog`} />
+
+      <motion.article
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         transition={{ delay: 0.2 }}
+        className='article container-center'
       >
-        <BlogDetails blog={blog} />
-      </motion.div>
+        <Image
+          src={image}
+          alt={title}
+          width={768}
+          height={400}
+          className='articleImg'
+        />
+        <ReactMarkdown components={customComponents}>{content}</ReactMarkdown>
+      <BlogLinks tag={tag} />
+      </motion.article>
     </>
   );
 };
+
+export async function getStaticPaths() {
+  const files = fs.readdirSync(path.join('posts'));
+
+  const paths = files.map((filename) => ({
+    params: {
+      slug: filename.replace('.md', ''),
+    },
+  }));
+
+  return {
+    // paths: [{ params: { slug: 'my-first-post' }}]
+    paths,
+    fallback: false,
+  };
+}
+
+export async function getStaticProps({ params: { slug } }) {
+  const markdownWithMeta = fs.readFileSync(
+    path.join('posts', slug + '.md'),
+    'utf-8'
+  );
+
+  const { data: frontmatter, content } = matter(markdownWithMeta);
+
+  return {
+    props: {
+      frontmatter,
+      content,
+      slug,
+    },
+  };
+}
 
 export default BlogDetailsPage;

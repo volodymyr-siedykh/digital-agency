@@ -11,7 +11,7 @@ const HeadingPages = ({title, text}) => {
         transition={{ delay: 0.2 }}
         className='container container-center'
       >
-        <h1 className='heading-1'>{title}</h1>
+        <h1 className='heading-2'>{title}</h1>
         <p className={styles.text}>{text}</p>
       </motion.div>
     </section>

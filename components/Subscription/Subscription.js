@@ -18,7 +18,7 @@ const Subscription = () => {
             className={styles.input}
             placeholder='Enter your email address'
           />
-          <button type='submit' className='btn btn-orange'>
+          <button type='submit' className={`btn btn-orange ${styles.form_btn}`}>
             Subscribe
           </button>
         </div>

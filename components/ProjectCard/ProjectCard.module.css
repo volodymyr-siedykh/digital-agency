@@ -11,5 +11,17 @@
 
 .content__item h3 {
   text-align: center;
-  margin-bottom: 5.2rem;
+  margin-bottom: 2.4rem;
+}
+
+@media(max-width: 1024px) {
+  .content__item {
+    padding: 4.8rem;
+  }
+}
+
+@media(max-width: 768px) {
+  .content__item {
+    padding: 3.2rem;
+  }
 }
