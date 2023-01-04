@@ -9,19 +9,10 @@ import Head from 'next/head';
 import BlogLinks from '../../components/Blog/BlogLinks';
 import Image from 'next/image';
 
-const BlogDetailsPage = ({
-  frontmatter: { title, tag, image },
-  content,
-}) => {
-  
+const BlogDetailsPage = ({ frontmatter: { title, tag, image }, content }) => {
   const customComponents = {
     img(image) {
-      return (
-          <img
-            src={`/images/posts/${image.src}`}
-            alt={image.alt}
-          />
-      );
+      return <img src={`/images/posts/${image.src}`} alt={image.alt} />;
     },
   };
   return (
@@ -46,7 +37,7 @@ const BlogDetailsPage = ({
           className='articleImg'
         />
         <ReactMarkdown components={customComponents}>{content}</ReactMarkdown>
-      <BlogLinks tag={tag} />
+        <BlogLinks tag={tag} />
       </motion.article>
     </>
   );
