@@ -1,5 +1,5 @@
 ---
-title: 'Benefits of Using Chatbots'
+title: 'The benefits of using chatbots for customer service'
 date: 'November 26, 2022'
 excerpt: ''
 image: '/images/posts/img1.jpg'

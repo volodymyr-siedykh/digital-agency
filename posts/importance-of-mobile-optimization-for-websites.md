@@ -1,5 +1,5 @@
 ---
-title: 'Importance of mobile optimization'
+title: 'Importance of mobile optimization for websites'
 date: 'December 15, 2022'
 excerpt: ''
 image: '/images/posts/img4.jpg'
