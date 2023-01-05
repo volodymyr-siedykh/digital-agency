@@ -247,7 +247,7 @@ meter {
 
 .btn-orange {
   background-color: var(--clr-orange-primary);
-  color: var(--clr-white);
+  color: var(--clr-black-primary);
 }
 
 /* .btn-orange:hover {
