@@ -17,7 +17,7 @@ const Services = () => {
             href='/services'
             className={`btn btn-merino ${styles.btn_link}`}
           >
-            See More
+            Our Services
           </Link>
           <div className={styles.content}>
             {services

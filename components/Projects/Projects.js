@@ -14,7 +14,7 @@ const Projects = () => {
           text='Our web development and ux/ui design projects'
         />
         <Link href='/projects' className={`btn btn-merino ${styles.btn_link}`}>
-          See More
+          Our Projects
         </Link>
         <div className={styles.content}>
           {projects
