@@ -31,7 +31,7 @@ const Features = () => {
           alt='feature image'
           width={734}
           height={694}
-          layout='responsive'
+          style={{ width: '100%', height: 'auto' }}
         />
       </div>
 
@@ -41,7 +41,7 @@ const Features = () => {
           alt='feature image'
           width={650}
           height={694}
-          layout='responsive'
+          style={{ width: '100%', height: 'auto' }}
         />
         <div className={styles.heading_2}>
           <Heading title='Explore Your Best Ideas On A Whiteboard' />
