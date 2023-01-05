@@ -256,12 +256,12 @@ meter {
 
 .btn-maize {
   background-color: var(--clr-maize);
-  color: var(--clr-orange-primary);
+  color: var(--clr-black-primary);
 }
 
 .btn-merino {
   background-color: var(--clr-merino);
-  color: var(--clr-orange-primary);
+  color: var(--clr-black-primary);
 }
 
 @media (max-width: 768px) {
