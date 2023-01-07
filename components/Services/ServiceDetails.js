@@ -14,8 +14,9 @@ const ServiceDetails = ({ service }) => {
             <Image
               src='/images/service-main.png'
               alt='service image'
-              width={1170}
-              height={500}
+              width={617}
+              height={425}
+              style={{ width: '100%', height: 'auto' }}
             />
           </div>
 
@@ -55,7 +56,7 @@ const ServiceDetails = ({ service }) => {
               alt='feature image'
               width={617}
               height={425}
-              layout='responsive'
+              style={{ width: '100%', height: 'auto' }}
             />
           </div>
 
@@ -66,7 +67,7 @@ const ServiceDetails = ({ service }) => {
                 alt='feature image'
                 width={564}
                 height={482}
-                layout='responsive'
+                style={{ width: '100%', height: 'auto' }}
               />
             </div>
             <div className={styles.content_2}>
