@@ -175,13 +175,13 @@ meter {
 
 @media screen and (max-width: 576px) {
   .heading-1 {
-    font-size: calc(6rem + 1vw - 4rem);
+    font-size: calc(6rem + 1vw - 3rem);
   }
 }
 
 @media screen and (min-width: 576px) {
   .heading-1 {
-    font-size: calc(7rem + 2vw - 4rem);
+    font-size: calc(7rem + 2vw - 3rem);
   }
 }
 
