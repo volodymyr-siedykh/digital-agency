@@ -12,7 +12,7 @@ const ServicesCard = ({title, text, icon, color, slug}) => {
       <div className={styles.img}>
         <Image src={icon} alt='sevice image' width={120} height={120} />
       </div>
-      <h3 className={`heading-5 ${styles.title}`}>{title}</h3>
+      <h3 className={`heading-3 ${styles.title}`}>{title}</h3>
       <p className={styles.text}>{text}</p>
       <Link href={`/services/${slug}`} className={styles.link}>
         Details
