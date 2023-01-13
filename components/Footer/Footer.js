@@ -28,7 +28,7 @@ const Footer = () => {
           </nav>
           <div className={styles.line}></div>
           <div className={styles.footer_contacts}>
-            <p>© 2022 DGStart</p>
+            <p>© {new Date().getFullYear()} DGStart</p>
             <div className={styles.footer_socials}>
               <FaFacebook />
               <FaInstagram />
