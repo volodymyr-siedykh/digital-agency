@@ -1,11 +1,11 @@
 ---
 title: 'Artificial Intelligence in Digital Marketing'
-slug: artificial-intelligence-in-digital-marketing
 date: 'January 4, 2023'
-excerpt: ''ta
+excerpt: ''
 image: '/images/posts/img3.jpg'
 tag: 'marketing'
 ---
+
 ## The Role of Artificial Intelligence in Digital Marketing
 
 As artificial intelligence (AI) continues to advance, it is increasingly being integrated into various industries and professions. While AI has the potential to greatly improve efficiency and productivity, it also raises concerns about the future of work and the potential for job displacement.

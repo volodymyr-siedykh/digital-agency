@@ -5,7 +5,6 @@ import matter from 'gray-matter';
 import ReactMarkdown from 'react-markdown';
 import HeadingPages from '../../components/HeadingPages/HeadingPages';
 import { motion } from 'framer-motion';
-import Head from 'next/head';
 import BlogLinks from '../../components/Blog/BlogLinks';
 import Image from 'next/image';
 
@@ -17,9 +16,6 @@ const BlogDetailsPage = ({ frontmatter: { title, tag, image }, content }) => {
   };
   return (
     <>
-      <Head>
-        <title>DGStart - {title}</title>
-      </Head>
       <HeadingPages title={title} text={`Home > Blog`} />
 
       <motion.article
