@@ -1,5 +1,5 @@
 ---
-title: 'Artificial Intelligence in Digital Marketing'
+title: 'The Role of Artificial Intelligence in Digital Marketing'
 date: 'January 4, 2023'
 excerpt: ''
 image: '/images/posts/img3.jpg'
