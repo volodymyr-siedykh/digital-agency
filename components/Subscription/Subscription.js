@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import styles from './Subscription.module.css'
 
 const Subscription = () => {
@@ -6,7 +7,7 @@ const Subscription = () => {
       <div className={styles.subscr_title}>
         <h2 className='heading-2'>Newsletter Subscription</h2>
         <p className='text'>
-          If you&#39;re interested in staying up-to-date on the latest web design
+          If you're interested in staying up-to-date on the latest web design
           and development trends, subscribing to a newsletter is a great way to
           do so
         </p>

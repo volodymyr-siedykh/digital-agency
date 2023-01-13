@@ -2,7 +2,7 @@
 title: 'Artificial Intelligence in Digital Marketing'
 slug: artificial-intelligence-in-digital-marketing
 date: 'January 4, 2023'
-excerpt: ''
+excerpt: ''ta
 image: '/images/posts/img3.jpg'
 tag: 'marketing'
 ---
