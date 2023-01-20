@@ -28,7 +28,20 @@ const Footer = () => {
           </nav>
           <div className={styles.line}></div>
           <div className={styles.footer_contacts}>
-            <p>© {new Date().getFullYear()} DGStart</p>
+            <div className={styles.dev}>
+              <div>© {new Date().getFullYear()} DGStart</div>
+              <div>
+                Developed by{' '}
+                <Link
+                  className={styles.link}
+                  href='https://siedykh.com'
+                  target='_blank'
+                >
+                  VSD&D
+                </Link>
+              </div>
+            </div>
+
             <div className={styles.footer_socials}>
               <FaFacebook />
               <FaInstagram />
