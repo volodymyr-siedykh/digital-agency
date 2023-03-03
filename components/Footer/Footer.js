@@ -34,7 +34,7 @@ const Footer = () => {
                 Developed by{' '}
                 <Link
                   className={styles.link}
-                  href='https://siedykh.com'
+                  href='https://www.siedykh.com'
                   target='_blank'
                 >
                   VSD&D
