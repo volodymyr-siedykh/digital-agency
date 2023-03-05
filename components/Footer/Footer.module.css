@@ -48,7 +48,7 @@
 }
 
 .dev {
-  margin-top: 2.5rem;
+  /* margin-top: 2.5rem; */
   text-align: center;
 }
 
@@ -68,4 +68,8 @@
   .footer_socials {
     order: -1;
   }
+}
+
+.developer {
+  visibility: hidden;
 }
