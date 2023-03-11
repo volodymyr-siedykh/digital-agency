@@ -6,6 +6,14 @@ const nextConfig = {
     locales: ['en'],
     defaultLocale: 'en',
   },
+  async rewrites() {
+    return [
+      {
+        source: '/sitemap.xml',
+        destination: '/api/sitemap',
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig
