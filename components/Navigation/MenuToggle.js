@@ -18,7 +18,6 @@ const MenuToggle = ({toggle, isOpen}) => {
   useEffect(() => {
     //get original value of body
     const originalStyle = window.getComputedStyle(document.body).overflow;
-    console.log(originalStyle);
     //prevent scrolling on mount
     if (isOpen) {
       document.body.style.overflow = 'hidden';
