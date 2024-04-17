@@ -9,7 +9,7 @@ const BlogCard = ({post}) => {
   return (
     <Link href={`/blog/${slug}`}>
         <div className={styles.container}>
-          <Image src={image} alt={title} width={363} height={240} style={{width: '100%', height: 'auto'}} />
+          <Image src={image} alt={title} width={363} height={240} style={{width: '100%', height: 'auto', aspectRatio: '16/9'}} />
           <div className={styles.content}>
             <div className={styles.tag}>{tag}</div>
             <h5 className={`heading-5 ${styles.title}`}>{title}</h5>

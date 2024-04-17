@@ -17,6 +17,7 @@ const BlogDetailsPage = ({ frontmatter: { title, tag, image }, content }) => {
           alt={image.alt}
           width={768}
           height={400}
+          style={{ width: '100%', height: 'auto', aspectRatio: '16/9' }}
         />
       );
     },
