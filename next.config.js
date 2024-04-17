@@ -14,6 +14,9 @@ const nextConfig = {
       },
     ];
   },
-};
+  images: {
+    domains: ['www.askhandle.com'],
+  },
+}
 
 module.exports = nextConfig

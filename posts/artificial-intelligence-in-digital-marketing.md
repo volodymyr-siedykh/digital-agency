@@ -2,7 +2,7 @@
 title: 'The Role of Artificial Intelligence in Digital Marketing'
 date: 'January 4, 2023'
 excerpt: ''
-image: '/images/posts/img3.jpg'
+image: 'https://www.askhandle.com/images/blog/posts-img/post-aiengineer/aires.webp'
 tag: 'marketing'
 ---
 
