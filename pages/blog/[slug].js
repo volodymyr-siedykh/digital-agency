@@ -11,7 +11,14 @@ import Image from 'next/image';
 const BlogDetailsPage = ({ frontmatter: { title, tag, image }, content }) => {
   const customComponents = {
     img(image) {
-      return <img src={`/images/posts/${image.src}`} alt={image.alt} />;
+      return (
+        <Image
+          src={image.src}
+          alt={image.alt}
+          width={768}
+          height={400}
+        />
+      );
     },
   };
   return (
