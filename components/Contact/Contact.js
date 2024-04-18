@@ -14,7 +14,7 @@ const Contact = () => {
           />
           <div className={styles.content}>
             <h6 className='heading-5'>Main Office</h6>
-            <p>24 Sylhet, Bagbari 40</p>
+            <p>902 Glen Oak Dr, Austin, TX 78745</p>
           </div>
         </div>
         <div className={styles.item}>
@@ -26,7 +26,7 @@ const Contact = () => {
           />
           <div className={styles.content}>
             <h6 className='heading-5'>Direct Call</h6>
-            <a href='tel:+19009009090'>+19009009090</a>
+            <a href='tel:+15125224293'>+1 (512) 522-4293</a>
           </div>
         </div>
         <div className={styles.item}>
@@ -38,7 +38,7 @@ const Contact = () => {
           />
           <div className={styles.content}>
             <h6 className='heading-5'>E-mail</h6>
-            <a href='mailto:info@dgstart.com'>info@dgstart.com</a>
+            <a href='mailto:info@dgstart.com'>info@dgstartagency.com</a>
           </div>
         </div>
       </div>

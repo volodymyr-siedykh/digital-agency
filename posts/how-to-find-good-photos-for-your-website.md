@@ -1,6 +1,6 @@
 ---
 title: 'How to Find Good Photos for Your Website?'
-date: 'December 15, 2022'
+date: 'April 18, 2024'
 excerpt: 'High-quality photos play a key role in enhancing the aesthetic appeal and professionalism of your site. Whether you are building a blog, an e-commerce platform, or a corporate website, the right imagery can significantly impact how visitors perceive your brand. Here, we’ll guide you through finding good photos for your website, and don’t forget to check out the example photos included in this blog post to get you started.'
 image: '/images/posts/website-example.jpg'
 tag: 'marketing'

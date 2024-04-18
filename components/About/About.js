@@ -17,20 +17,20 @@ const About = () => {
         />
         <div className={styles.content}>
           <Heading
-            title='Know More About - DGStart & Our Process'
-            text='Nulla volutpat enim lorem, non volutpat tortor consequa ac Quisque ipsum arcu, vehicula sit amet tempor non, blandite proin dignissim vitae ipsum a laoreet. In molestie imperdiet vehicula urna. Ut ullamcorper neque dui, imperdiet ornared at augue. Donec semper velit eget urna aliquet.'
+            title='Let’s Start A New Digital Journey Together!'
+            text='Begin a transformative digital journey with DGStart, where your vision meets our innovative marketing expertise. Our approach is your gateway to captivating audiences and achieving impactful results. Connect with us to unlock your brand’s full potential in the digital world.'
           />
           <div className={styles.counters}>
             <div className={styles.counter}>
-              <h3 className='heading-3'>224+</h3>
+              <h3 className='heading-3'>828+</h3>
               <p>Happy Clients</p>
             </div>
             <div className={styles.counter}>
-              <h3 className='heading-3'>63+</h3>
+              <h3 className='heading-3'>1263+</h3>
               <p>Projects Done</p>
             </div>
             <div className={styles.counter}>
-              <h3 className='heading-3'>360D+</h3>
+              <h3 className='heading-3'>13600D+</h3>
               <p>Days Of Work</p>
             </div>
           </div>

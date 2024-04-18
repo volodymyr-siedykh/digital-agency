@@ -5,8 +5,8 @@ const ContactForm = () => {
   return (
     <div className={`container container-center ${styles.container}`}>
       <Heading
-        title='Message Us'
-        text='Nulla volutpat enim lorem, non volutpat tortor consequat ac.'
+        title='Free Consultation'
+        text='Please send us your needs, and we will offer you the best solution.'
       />
       <form className={styles.form}>
         <div className={styles.input_wrapper}>

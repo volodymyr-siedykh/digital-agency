@@ -16,7 +16,7 @@ const Hero = () => {
           We Build <span>Digital</span> Product For Your Success
         </motion.h1>
         <Link href='/' className='btn btn-orange'>
-          Get Started
+          Get A Free Quote
         </Link>
       </div>
     </section>

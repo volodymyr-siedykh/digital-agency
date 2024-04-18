@@ -12,8 +12,8 @@ const AboutTeam = () => {
           alignItems: 'center',
           textAlign: 'center',
         }}
-        title='Our Team Members'
-        text='Praesent placerated egestas egestas cras rhone magna rutrum tellus laoreet'
+        title='Meet Our Creative Team'
+        text='We make magic things happen'
       />
       <div className={`container container-center ${styles.team}`}>
         <div className={styles.item}>
@@ -27,7 +27,7 @@ const AboutTeam = () => {
           </div>
           <div className={styles.heading}>
             <h5 className='heading-5'>Freddie Stewart</h5>
-            <p>Ui Designer</p>
+            <p>Lead Designer</p>
           </div>
         </div>
         <div className={styles.item}>
@@ -39,7 +39,7 @@ const AboutTeam = () => {
           />
           <div className={styles.heading}>
             <h5 className='heading-5'>Cameron Butcher</h5>
-            <p>Front-end Developer</p>
+            <p>Lead Product Manager</p>
           </div>
         </div>
         <div className={styles.item}>
@@ -51,7 +51,7 @@ const AboutTeam = () => {
           />
           <div className={styles.heading}>
             <h5 className='heading-5'>Gabriel Woods</h5>
-            <p>Back-end Developer</p>
+            <p>Lead Back-end Developer</p>
           </div>
         </div>
       </div>

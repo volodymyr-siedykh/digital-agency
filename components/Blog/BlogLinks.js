@@ -22,25 +22,25 @@ const BlogLinks = ({ tag }) => {
         </div>
         <div className={styles.form_container}>
           <Heading
-            title='Leave a Reply'
-            text='Nulla volutpat enim lorem, non volutpat tortor consequat ac.'
+            title='Contact us'
+            text='If you have any questions about our services, feel free to send us a message.'
           />
           <form className={styles.form}>
             <div className={styles.input_wrapper}>
               <input
                 className={styles.input}
                 type='text'
-                placeholder='Your Name'
+                placeholder='Your Full Name'
               />
               <input
                 className={styles.input}
                 type='email'
-                placeholder='Your Email'
+                placeholder='Your Work Email'
               />
             </div>
-            <textarea className={styles.textarea} cols='30' rows='5' placeholder='Your Comment'></textarea>
+            <textarea className={styles.textarea} cols='30' rows='5' placeholder='Type your question here. For example: How much does it cost to build a website?'></textarea>
             <button className='btn btn-orange' type='submit'>
-              Post Comment
+              Submit the message
             </button>
           </form>
         </div>
